@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "章节列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "chapterlist-ws-load-more-list": "/pages/profile/chapterlist-ws-load-more-list",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "ws-load-more": "/components/wsure-load-more/load-more"
+  }
+}

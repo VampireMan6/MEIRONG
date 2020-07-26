@@ -1,0 +1,1 @@
+<ws-load-more generic:scoped-slots-list="chapterlist-ws-load-more-list" class="vue-ref" vue-id="f14f822c-1" pageSize="{{12}}" data-ref="loadMore" data-event-opts="{{[['^provider',[['provider']]]]}}" bind:provider="__e" bind:__l="__l" vue-slots="{{['list']}}"></ws-load-more>

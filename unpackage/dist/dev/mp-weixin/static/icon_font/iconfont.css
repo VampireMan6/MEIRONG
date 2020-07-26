@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'iconfont';
+  src:  url('http://at.alicdn.com/t/font_1761521_98i2uymm8s.ttf') format('truetype')
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Set-up:before {
+  content: "\e615";
+}
+
+.icon-icon-:before {
+  content: "\e622";
+}
+
+.icon-jia:before {
+  content: "\e600";
+}
+
+.icon-shanchu:before {
+  content: "\e630";
+}
+
+.icon-shanchu1:before {
+  content: "\e61a";
+}
+
+.icon-sousuo:before {
+  content: "\e606";
+}
+
+.icon-wutouxiang:before {
+  content: "\e63c";
+}
+
+.icon-bangzhujinru:before {
+  content: "\e64e";
+}
+
+.icon-shang:before {
+  content: "\e653";
+}
+
+.icon-xia:before {
+  content: "\e65a";
+}
+

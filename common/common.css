@@ -1,0 +1,472 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.filter {
+	filter: blur(2px)
+}
+
+.fixed_bottom {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1001;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.flex_1 {
+	flex: 1;
+}
+
+.sticky-box {
+	position: sticky;
+	top: var(--status-bar-height);
+	z-index: 99;
+}
+
+.sticky-box1 {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+.f-w {
+	flex-wrap: wrap;
+}
+
+.block {
+	display: inline-block;
+}
+
+.flex {
+	display: flex;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.border_solide {
+	width: 100%;
+	height: 2upx;
+	background-color: #f0f0f2;
+}
+
+.f-between {
+	justify-content: space-between;
+}
+
+.f-end {
+	justify-content: flex-end;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.f-center {
+	align-items: center;
+}
+
+/* 隐藏scroll-view中滑动时出现的下划线 */
+/* ::-webkit-scrollbar{
+		width:0;
+		height:0;
+		color:transparent;
+	}
+	 */
+/* 圆角样式 */
+.b-r-2 {
+	border-radius: 4upx;
+}
+
+.b-r-4 {
+	border-radius: 8upx;
+}
+
+.b-r-50 {
+	border-radius: 50%;
+}
+
+/* 内外边距样式 */
+.m-t-5 {
+	margin-top: 10upx;
+}
+
+.m-t-10 {
+	margin-top: 20upx;
+}
+
+.m-t-20 {
+	margin-top: 40upx;
+}
+
+.m-b-5 {
+	margin-bottom: 10upx;
+}
+
+.m-b-10 {
+	margin-bottom: 20upx;
+}
+
+.m-b-15 {
+	margin-bottom: 30upx;
+}
+
+.m-b-20 {
+	margin-bottom: 40upx;
+}
+
+.m-y-10 {
+	margin: 20upx 0;
+}
+
+.m-y-15 {
+	margin: 30upx 0;
+}
+
+.m-y-20 {
+	margin: 40upx 0;
+}
+
+.m-l-5 {
+	margin-left: 10upx;
+}
+
+.m-l-10 {
+	margin-left: 20upx;
+}
+
+.m-l-15 {
+	margin-left: 30upx;
+}
+
+.m-l-20 {
+	margin-left: 40upx;
+}
+
+.m-r-5 {
+	margin-right: 10upx;
+}
+
+.m-r-10 {
+	margin-right: 20upx;
+}
+
+.m-r-15 {
+	margin-right: 30upx;
+}
+
+.m-r-20 {
+	margin-right: 40upx;
+}
+
+.p-x-5 {
+	padding: 0 10upx
+}
+
+.p-x-10 {
+	padding: 0 20upx;
+}
+
+.p-x-15 {
+	padding: 0 30upx;
+}
+
+.p-x-20 {
+	padding: 0 40upx;
+}
+
+.p-y-5 {
+	padding: 10upx 0;
+}
+
+.p-y-10 {
+	padding: 20upx 0;
+}
+
+.p-y-15 {
+	padding: 30upx 0;
+}
+
+.p-y-20 {
+	padding: 40upx 0;
+}
+
+.p-t-5 {
+	padding-top: 10upx;
+}
+
+.p-t-10 {
+	padding-top: 20upx;
+}
+
+.p-t-15 {
+	padding-top: 30upx;
+}
+
+.p-t-20 {
+	padding-top: 40upx;
+}
+
+.p-b-10 {
+	padding-bottom: 20upx;
+}
+
+.p-b-15 {
+	padding-bottom: 30upx;
+}
+
+.p-b-20 {
+	padding-bottom: 40upx;
+}
+
+.p-l-5 {
+	padding-left: 10upx;
+}
+
+.p-l-8 {
+	padding-left: 16upx;
+}
+
+.p-l-10 {
+	padding-left: 20upx;
+}
+
+.p-l-15 {
+	padding-left: 30upx;
+}
+
+.p-l-20 {
+	padding-left: 40upx;
+}
+
+.p-r-5 {
+	padding-right: 10upx;
+}
+
+.p-r-10 {
+	padding-right: 20upx;
+}
+
+.p-r-20 {
+	padding-right: 40upx;
+}
+
+.p-r-15 {
+	padding-right: 15upx;
+}
+
+.p-5 {
+	padding: 10upx;
+}
+
+.p-10 {
+	padding: 20upx;
+}
+
+.p-15 {
+	padding: 30upx;
+}
+
+.p-20 {
+	padding: 40upx;
+}
+
+.p-25 {
+	padding: 50upx;
+}
+
+.b-b {
+	box-sizing: border-box;
+}
+
+/* 字体样式 */
+.f-8 {
+	font-size: 16upx;
+}
+
+.f-10 {
+	font-size: 20upx;
+}
+
+.f-11 {
+	font-size: 22upx;
+}
+
+.f-12 {
+	font-size: 24upx;
+}
+
+.f-13 {
+	font-size: 26upx;
+}
+
+.f-14 {
+	font-size: 28upx;
+}
+
+.f-15 {
+	font-size: 30upx;
+}
+
+.f-16 {
+	font-size: 32upx;
+}
+
+.f-17 {
+	font-size: 34upx;
+}
+
+.f-18 {
+	font-size: 36upx;
+}
+
+.f-20 {
+	font-size: 40upx;
+}
+
+.f-22 {
+	font-size: 44upx;
+}
+
+.f-25 {
+	font-size: 50upx;
+}
+
+.f-27 {
+	font-size: 54upx;
+}
+
+.f-29 {
+	font-size: 58upx;
+}
+
+.f-30 {
+	font-size: 60upx;
+}
+
+.f-50 {
+	font-size: 100upx;
+}
+
+.f-w-600 {
+	font-weight: 600;
+}
+
+.f-w-700 {
+	font-weight: 700;
+}
+
+/* 字体颜色 */
+.c-white {
+	color: #FFFFFF;
+}
+
+.c-black {
+	color: #000000;
+}
+
+.c-333 {
+	color: #333333;
+}
+
+.c-666 {
+	color: #666666;
+}
+
+.c-999 {
+	color: #999999;
+}
+
+.c-d {
+	color: #dbdbdb;
+}
+
+.b-theme {
+	background-color: #43bb57;
+}
+
+.b-c-w {
+	background-color: #FFFFFF;
+}
+
+.b-c-b {
+	background-color: #000000;
+}
+
+.b-c-f8 {
+	background-color: #F8F8F8;
+}
+
+/* 内容居中 */
+.t-c {
+	text-align: center;
+}
+
+.t-r {
+	text-align: right;
+}
+
+/* 宽度样式 */
+
+.w-10 {
+	width: 10%;
+}
+
+.w-20 {
+	width: 20%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.z-1 {
+	z-index: 1;
+}
+
+.z-500 {
+	z-index: 500;
+}
+
+.z-999 {
+	z-index: 999;
+}

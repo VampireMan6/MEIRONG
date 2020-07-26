@@ -1,0 +1,1 @@
+<view class="nav-bar flex"><view class="left flex"><slot name="left"></slot></view><view class="center flex j-center"><slot name="center"></slot></view><view class="right flex"><slot name="right"></slot></view></view>

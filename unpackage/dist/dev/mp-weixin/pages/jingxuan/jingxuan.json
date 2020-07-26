@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "/components/repeat_coms/navbar/NavBar",
+    "select-sex": "/components/jingxuan/SelectSex",
+    "swiper-coms": "/components/jingxuan/Swiper",
+    "theme": "/components/repeat_coms/Theme",
+    "article-intro-one": "/components/repeat_coms/article_intro/IntroOne",
+    "article-intro-two": "/components/repeat_coms/article_intro/IntroTwo"
+  }
+}

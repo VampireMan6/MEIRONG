@@ -1,0 +1,15 @@
+
+.view_item {
+	height: 140rpx;
+}
+.view_item:nth-child(4n-3) {
+	background-color: #f7f7f7;
+}
+.view_item:nth-child(4n-2) {
+	background-color: #f7f7f7;
+}
+.image {
+	width: 100rpx;
+	height: 120rpx;
+}
+

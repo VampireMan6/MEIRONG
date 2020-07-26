@@ -1,0 +1,17 @@
+
+.nav-bar{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.left, .right {
+  width: 200rpx;
+}
+.center {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+
